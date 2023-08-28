@@ -71,7 +71,7 @@ function Project() {
                 <div className="flex flex-col xl:flex-row gap-6">
                     <Link href="https://github.com/Neo-Ayush-jha/instagram" target='_blank' className='w-full xl:w-1/2 relative group '>
                         <div>
-                            <Image src={Instagram} alt='Instagram' style={{height:"530px"}} className='w-full object-contain rounded-md'/>
+                            <Image src={Instagram} alt='Instagram' style={{height:"530px"}} className='w-full object-contain rounded-md '/>
                         </div>
                     </Link>
                 <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
@@ -97,7 +97,7 @@ function Project() {
                 <div className="flex flex-col xl:flex-row-reverse gap-6">
                     <Link href="https://github.com/Neo-Ayush-jha/movi-finder-next.js" target='_blank' className='w-full xl:w-1/2 relative group '>
                         <div>
-                            <Image src={Movie} alt='Instagram' style={{height:"530px"}} className='w-full object-contain rounded-md'/>
+                            <Image src={Movie} alt='Instagram' style={{height:"530px"}} className='w-full h-full object-contain rounded-md'/>
                         </div>
                     </Link>
                 <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-right xl:-mr-16 z-10">
