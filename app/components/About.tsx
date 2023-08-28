@@ -11,8 +11,8 @@ function About() {
             <div className='flex flex-col lgl:flex-row gap-16'>
                 <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
                     <p>
-                        Hello there, I'm Ayush Kumar, a dedicated web developer who has found his passion in transforming digital ideas into captivating online experiences. My journey began with a thirst for knowledge and a willingness to embrace challenges as stepping stones to growth. As someone who thrives on learning, I've navigated the complexities of programming, consistently pushing myself to grasp deeper concepts and refine my coding prowess.
-                        My expertise lies in the full stack of technologies, including but not limited.Challenges have been my constant companions on this journey, and I've embraced them as opportunities for growth.
+                        Hello there, I am Ayush Kumar, a dedicated web developer who has found his passion in transforming digital ideas into captivating online experiences. My journey began with a thirst for knowledge and a willingness to embrace challenges as stepping stones to growth. As someone who thrives on learning, I have navigated the complexities of programming, consistently pushing myself to grasp deeper concepts and refine my coding prowess.
+                        My expertise lies in the full stack of technologies, including but not limited.Challenges have been my constant companions on this journey, and I have embraced them as opportunities for growth.
                     </p>
                     <p>
                         My early days in programming were shaped by the guidance of a remarkable teacher <Link href="www.codewithsadiq.com" className='text-textGreen'>(Code With SadiQ Instructor | Sadique Hussain)</Link>. Their mentorship not only helped me understand the intricacies of code but also encouraged me to explore the uncharted territories of web development. This foundation fueled my hunger for knowledge and gave me the confidence to tackle complex projects with enthusiasm.
