@@ -22,7 +22,7 @@ function Project() {
                     </Link>
                 <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
                     <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
-                    <h3 className='text-2xl font-bold'>Hospital Management System Web Application</h3>
+                    <h3 className='text-2xl font-bold'>Hospital Management System <span className="text-textGreen">| Web Application</span></h3>
                     <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>The Hospital Management System is a comprehensive web application designed to streamline the operations of a hospital or healthcare facility. This system provides different panels, including <span className='text-textGreen'>Patients, Doctors, Pharmacy, Pathology, Counter, Reception and Blood Bank</span> to efficiently manage various aspects of patient care and administration.</p>
                     <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
                         <li>HTML</li>
@@ -49,7 +49,7 @@ function Project() {
                     </Link>
                 <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-right xl:-mr-16 z-10">
                     <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
-                    <h3 className='text-2xl font-bold'>GuruKul-MahaVidiyaly| Web Application</h3>
+                    <h3 className='text-2xl font-bold'>GuruKul-MahaVidiyaly| <span className="text-textGreen">| Web Application</span></h3>
                     <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>The School Management System is a comprehensive web application designed to streamline the operations of a school or study facility. This system provides different  <span className='text-textGreen'>Student, Teacher , Reception and Princpal</span> to efficiently manage various aspects of patient care and administration.</p>
                     <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
                         <li>Ejs</li>
@@ -76,7 +76,7 @@ function Project() {
                     </Link>
                 <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
                     <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
-                    <h3 className='text-2xl font-bold'>Instagram | Web Application</h3>
+                    <h3 className='text-2xl font-bold'>Instagram | <span className="text-textGreen">| Web Application</span></h3>
                     <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>"Crafting captivating digital worlds ✨: Building dynamic web experiences with React.js and Firebase backend. Elevating design with MUI to create seamless, visually stunning interfaces. Join me on a journey of innovation and user-centric web development! 🚀 <span className='text-textGreen'>Login and Singup</span></p>
                     <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
                         <li>Html</li>
@@ -102,8 +102,8 @@ function Project() {
                     </Link>
                 <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-right xl:-mr-16 z-10">
                     <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
-                    <h3 className='text-2xl font-bold'>Movie | Web Application</h3>
-                    <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>"Unveiling MovieFind: Your Ultimate Netflix Companion 🎬🍿. Powered by Next.js for lightning-fast performance, adorned with Tailwind CSS for sleek design. Immerse yourself in the world of cinema with intuitive navigation and real-time search.  <span className='text-textGreen'>Login and Singup</span></p>
+                    <h3 className='text-2xl font-bold'>Movie Finder <span className="text-textGreen">| Web Application</span></h3>
+                    <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>"Unveiling MovieFind: Your Ultimate Netflix Companion 🎬🍿. Powered by Next.js for lightning-fast performance, adorned with Tailwind CSS for sleek design. Immerse yourself in the world of cinema with intuitive navigation and real-time search."<br/><span className='text-textGreen'>Login and Singup</span></p>
                     <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
                         <li>Html</li>
                         <li>Tailwind.cdd</li>
