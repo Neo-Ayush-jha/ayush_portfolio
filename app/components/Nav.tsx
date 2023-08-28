@@ -14,7 +14,6 @@ function Nav() {
     const [showMenu, setShowMenu] = useState(false)
     const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
         setShowMenu(false)
-        console.log("Ayush jha " + "https://simple-portfolio-neo-git-main-neo-ayush-jha.vercel.app/")
 
     }
     return (
