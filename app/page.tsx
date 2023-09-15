@@ -12,6 +12,7 @@ import Project from './components/Project'
 import Archive from './components/Archive'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Footer2 from './components/Footer2'
 export default function Home() {
   return (
     <>
@@ -19,7 +20,7 @@ export default function Home() {
         <Nav />
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5 }} className='w-full h-[88vh] xl:flex items-center gap-20 justify-between'>
           <div className='hidden xl:inline-flex w-32 h-full fixed left-0 bootom-0'><LeftSide /></div>
-          <div className='h-[88vh] w-full mx-auto p-4'>
+          <div className='h-[88vh] w-full mx-auto px-4'>
             <Banner />
             <About />
             <Experience />
@@ -27,6 +28,7 @@ export default function Home() {
             <Archive />
             <Contact />
             <Footer />
+            <Footer2/>
           </div>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5 }} className='hidden xl:inline-flex w-32 h-full fixed right-0 bootom-0'><RigitSide /></motion.div>
         </motion.div>

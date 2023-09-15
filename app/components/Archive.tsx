@@ -35,7 +35,7 @@ function Archive() {
                     itemList={["HTML", "Bootstrap", "node.js", "express", "socket.io"]} />
 
                 <ArchiveCard
-                    title="crud_operation_in_django"
+                    title="AllAuth us"
                     project="Crud operation"
                     discription="This is my crud opration of django preactice project, in this i used allAuth authentication for authentication and in my this project google,github login."
                     link="https://github.com/Neo-Ayush-jha/crud_operation_in_django"
@@ -59,35 +59,35 @@ function Archive() {
                         <>
                             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.1 }}>
                                 <ArchiveCard
-                                    title="Purnea Buzzar"
-                                    project="Ecommerce"
-                                    discription="This is my ecommerce laravel project, in this i used paytm for payment and breeze for authentication and more features are used in this project."
-                                    link="https://github.com/Neo-Ayush-jha/purneaBazzar--laravel-"
-                                    itemList={["HTML", "Bootstrap", "js", "Paytm", "mySql", "Laravel"]} />
+                                    title="Gymnast-Website"
+                                    project="Gymnast"
+                                    discription="This is Gym django project authentication and more features are used in this project."
+                                    link="https://github.com/Neo-Ayush-jha/Gymnast-Website"
+                                    itemList={["HTML", "Bootstrap", "js", "mySql", "Django"]} />
                             </motion.div>
                             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }}>
                                 <ArchiveCard
-                                    title="Purnea Buzzar"
+                                    title="eCom-Django"
                                     project="Ecommerce"
-                                    discription="This is my ecommerce laravel project, in this i used paytm for payment and breeze for authentication and more features are used in this project."
-                                    link="https://github.com/Neo-Ayush-jha/purneaBazzar--laravel-"
-                                    itemList={["HTML", "Bootstrap", "js", "Paytm", "mySql", "Laravel"]} />
+                                    discription="This is my ecommerce django project, in this i used paytm for payment , authentication and more features are used in this project."
+                                    link="https://github.com/Neo-Ayush-jha/eCom-Django"
+                                    itemList={["HTML", "Bootstrap", "js", "Paytm", "mySql", "Django"]} />
                             </motion.div>
                             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.3 }}>
                                 <ArchiveCard
-                                    title="Purnea Buzzar"
-                                    project="Ecommerce"
-                                    discription="This is my ecommerce laravel project, in this i used paytm for payment and breeze for authentication and more features are used in this project."
-                                    link="https://github.com/Neo-Ayush-jha/purneaBazzar--laravel-"
-                                    itemList={["HTML", "Bootstrap", "js", "Paytm", "mySql", "Laravel"]} />
+                                    title="RestAPI"
+                                    project="RestAPI"
+                                    discription="This is my rest_api django project, in this i used JWT token for authentication and more features are used in this project."
+                                    link="http://localhost/php/first/stock/index.php"
+                                    itemList={["JWT", "mySql", "Django"]} />
                             </motion.div>
                             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.4 }}>
                                 <ArchiveCard
-                                    title="Purnea Buzzar"
-                                    project="Ecommerce"
-                                    discription="This is my ecommerce laravel project, in this i used paytm for payment and breeze for authentication and more features are used in this project."
-                                    link="https://github.com/Neo-Ayush-jha/purneaBazzar--laravel-"
-                                    itemList={["HTML", "Bootstrap", "js", "Paytm", "mySql", "Laravel"]} />
+                                    title="AllAuth us"
+                                    project="AllAuth us"
+                                    discription="This is my crud django project, in this i us google , github facebook authentication and more features are used in this project."
+                                    link="https://github.com/Neo-Ayush-jha/crud_operation_in_django"
+                                    itemList={["HTML", "Bootstrap", "js", "Paytm", "mySql", "django"]} />
                             </motion.div>
                         </>
                     )
