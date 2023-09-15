@@ -3,11 +3,10 @@ import { motion } from "framer-motion";
 import Link from 'next/link';
 import Image from 'next/image';
 import SrcPro from "@/public/proj/src.svg"
-
 function Banner() {
   return (
     <>
-      <section id='home' className='max-w-container mx-auto lgl:px-20 mx-auto py-10 mdl:pt-8 mdl:pb-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4'>
+      <section id='home' className='max-w-container mx-auto lgl:px-20 mx-auto pt-10 mdl:pt-8 mdl:pb-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4'>
         <motion.div className="flex flex-col lg:flex-row items-center lg:w-4/5 mx-auto  ">
           <div className="lg:w-7/10 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
             <motion.h3 initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.6 }} className='text-2xl font-titleFont tracking-wide text-textGreen'>Hi, my name is</motion.h3>
@@ -30,5 +29,4 @@ function Banner() {
     </>
   )
 }
-
 export default Banner
