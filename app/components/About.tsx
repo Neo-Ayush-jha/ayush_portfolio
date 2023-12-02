@@ -17,18 +17,6 @@ function About() {
                     <p>
                         My early days in programming were shaped by the guidance of a remarkable teacher <Link href="www.codewithsadiq.com" className='text-textGreen'>(Code With SadiQ Instructor | Sadique Hussain)</Link>. Their mentorship not only helped me understand the intricacies of code but also encouraged me to explore the uncharted territories of web development. This foundation fueled my hunger for knowledge and gave me the confidence to tackle complex projects with enthusiasm.
                     </p>
-                    <p>Here are a few technologies I have been learn and work with recently:</p>
-                    <ul className='max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6'>
-                        <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>HTML(5)</li>
-                        <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>CSS(3)</li>
-                        <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>JS(ES6+)</li>
-                        <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Next.js(13)</li>
-                        <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Django</li>
-                        <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Node.js</li>
-                        <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>MySql</li>
-                        <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>MongoDB</li>
-                        <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Laravel</li>
-                    </ul>
                 </div>
                 <div className='w-full lgl:w-1/3 h-80 relative group'>
                     <div className='absolute w-full h-80 -left-6 -top-6 rounded-lg'>

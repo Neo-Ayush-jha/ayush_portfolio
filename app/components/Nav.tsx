@@ -48,38 +48,56 @@ function Nav() {
                                 <span className='text-textGreen'>01.</span>About
                             </motion.li>
                         </Link>
-                        <Link href="#experience" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
+                        <Link href="#skills" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
                             <motion.li
                                 initial={{ y: -10, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.1, delay: 0.2 }}
                             >
-                                <span className='text-textGreen'>02.</span>Experience
+                                <span className='text-textGreen'>02.</span>Skills
+                            </motion.li>
+                        </Link>
+                        <Link href="#Education" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
+                            <motion.li
+                                initial={{ y: -10, opacity: 0 }}
+                                animate={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.1, delay: 0.3 }}
+                            >
+                                <span className='text-textGreen'>03.</span>Education
+                            </motion.li>
+                        </Link>
+                        <Link href="#experience" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
+                            <motion.li
+                                initial={{ y: -10, opacity: 0 }}
+                                animate={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.1, delay: 0.4 }}
+                            >
+                                <span className='text-textGreen'>04.</span>Experience
                             </motion.li>
                         </Link>
                         <Link href="#project" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
                             <motion.li
                                 initial={{ y: -10, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
-                                transition={{ duration: 0.1, delay: 0.3 }}
+                                transition={{ duration: 0.1, delay: 0.5 }}
                             >
-                                <span className='text-textGreen'>03.</span>Project
+                                <span className='text-textGreen'>05.</span>Project
                             </motion.li>
                         </Link>
                         <Link href="#contact" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
                             <motion.li
                                 initial={{ y: -10, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
-                                transition={{ duration: 0.1, delay: 0.4 }}
+                                transition={{ duration: 0.1, delay: 0.6 }}
                             >
-                                <span className='text-textGreen'>04.</span>Contact
+                                <span className='text-textGreen'>06.</span>Contact
                             </motion.li>
                         </Link>
                     </ul>
                     <Link href="/proj/ayush.pdf" target='_blank'>
                         <motion.button initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
-                            transition={{ duration: 0.5 }}
+                            transition={{ duration: 0.7 }}
                             className='px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300'>
                             Resume
                         </motion.button>
@@ -117,52 +135,67 @@ function Nav() {
                                                 <span className='text-textGreen'>01.</span>About
                                             </motion.li>
                                         </Link>
-                                        <Link href="#experience" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
+                                        <Link href="#skills" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
                                             <motion.li
                                                 initial={{ x: 20, opacity: 0 }}
                                                 animate={{ x: 0, opacity: 1 }}
                                                 transition={{ duration: 0.3, delay: 0.3, ease: "easeIn" }}
                                             >
-                                                <span className='text-textGreen'>02.</span>Experience
+                                                <span className='text-textGreen'>02.</span>Skill
+                                            </motion.li>
+                                        </Link>
+                                        <Link href="#Education" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
+                                            <motion.li
+                                                initial={{ x: 20, opacity: 0 }}
+                                                animate={{ x: 0, opacity: 1 }}
+                                                transition={{ duration: 0.4, delay: 0.4, ease: "easeIn" }}
+                                            >
+                                                <span className='text-textGreen'>03.</span>Education
+                                            </motion.li>
+                                        </Link>
+                                        <Link href="#experience" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
+                                            <motion.li
+                                                initial={{ x: 20, opacity: 0 }}
+                                                animate={{ x: 0, opacity: 1 }}
+                                                transition={{ duration: 0.5, delay: 0.5, ease: "easeIn" }}
+                                            >
+                                                <span className='text-textGreen'>04.</span>Experience
                                             </motion.li>
                                         </Link>
                                         <Link href="#project" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
                                             <motion.li
                                                 initial={{ x: 20, opacity: 0 }}
                                                 animate={{ x: 0, opacity: 1 }}
-                                                transition={{ duration: 0.4, delay: 0.4, ease: "easeIn" }}
+                                                transition={{ duration: 0.6, delay: 0.6, ease: "easeIn" }}
                                             >
-                                                <span className='text-textGreen'>03.</span>Project
+                                                <span className='text-textGreen'>05.</span>Project
                                             </motion.li>
                                         </Link>
                                         <Link href="#contact" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
                                             <motion.li
                                                 initial={{ x: 20, opacity: 0 }}
                                                 animate={{ x: 0, opacity: 1 }}
-                                                transition={{ duration: 0.5, delay: 0.5, ease: "easeIn" }}
+                                                transition={{ duration: 0.7, delay: 0.7, ease: "easeIn" }}
                                             >
-                                                <span className='text-textGreen'>04.</span>Contact
+                                                <span className='text-textGreen'>06.</span>Contact
                                             </motion.li>
                                         </Link>
                                     </ul>
                                     <Link href="/proj/ayush.pdf" target='_blank'>
                                         <motion.button initial={{ opacity: 0 }}
                                             animate={{ opacity: 1 }}
-                                            transition={{ duration: 0.6, ease: "easeIn" }}
+                                            transition={{ duration: 0.7, ease: "easeIn" }}
                                             className='w-32 h-10 rounded-md text-textGreen text-[25px]  border border-textGreen hover:bg-hoverColor duration-300 mt-20'>
                                             Resume
                                         </motion.button>
                                     </Link>
 
-                                    <div className='flex xl:hidden items-center justify-center  w-full py-6 gap-3'>
+                                    <div className='flex xl:hidden items-center justify-center  w-full px-sm-12 py-6 gap-3'>
                                         <Link href="https://github.com/Neo-Ayush-jha" target="_blank">
                                             <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'><TbBrandGithub /></span>
                                         </Link>
                                         <Link href="https://www.linkedin.com/in/ayush-kumar-jha-273a99248" target="_blank">
                                             <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'><SlSocialLinkedin /></span>
-                                        </Link>
-                                        <Link href="https://ayush91176@gmail.com" target="_blank">
-                                            <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'><SlSocialGoogle /></span>
                                         </Link>
                                         <Link href="https://www.instagram.com/__ay_ush__jha_/" target="_blank">
                                             <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'><SlSocialInstagram /></span>

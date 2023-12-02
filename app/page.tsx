@@ -13,6 +13,8 @@ import Archive from './components/Archive'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Footer2 from './components/Footer2'
+import Skils from './components/Skils'
+import Education from './components/Education'
 export default function Home() {
   return (
     <>
@@ -23,12 +25,14 @@ export default function Home() {
           <div className='h-[88vh] w-full mx-auto px-4'>
             <Banner />
             <About />
+            <Skils />
+            <Education />
             <Experience />
             <Project />
             <Archive />
             <Contact />
             <Footer />
-            <Footer2/>
+            <Footer2 />
           </div>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5 }} className='hidden xl:inline-flex w-32 h-full fixed right-0 bootom-0'><RigitSide /></motion.div>
         </motion.div>
