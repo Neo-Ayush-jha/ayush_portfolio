@@ -13,7 +13,7 @@ function Footer() {
             <Link href="https://www.linkedin.com/in/ayush-kumar-jha-273a99248" target="_blank">
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'><SlSocialLinkedin /></span>
             </Link>
-            <Link href="https://ayush91176@gmail.com" target="_blank">
+            <Link href="https://mail.google.com/mail/u/0/?fs=1&to=ayush91176@gmail.com&tf=cm" target="_blank">
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'><SlSocialGoogle /></span>
             </Link>
             <Link href="https://www.instagram.com/__ay_ush__jha_/" target="_blank">
