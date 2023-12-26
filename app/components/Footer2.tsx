@@ -7,7 +7,7 @@ function footer2() {
             <div className="text-textDark bg-transparent justify item-center text-center">
                 <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
                     <p className="text-gray-500 text-sm text-center sm:text-left">© 2023 Ayush kumar —
-                    <Link href="https://ayush91176@gmail.com"  className="text-gray-600 ml-1" target="_blank" >@ayush_kumar</Link>
+                    <Link href="https://mail.google.com/mail/u/0/?fs=1&to=ayush91176@gmail.com&tf=cm"  className="text-gray-600 ml-1" target="_blank" >@ayush_kumar</Link>
                     </p>
                 </div>
             </div>
