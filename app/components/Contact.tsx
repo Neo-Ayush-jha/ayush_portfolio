@@ -9,7 +9,7 @@ function Contact() {
             <p className="max-w-[600px] text-center text-textDark">
                 Although I am not currently looking for any new opportunities,my inbox is always open. Whether you have a question or just want to say hi, I will try my best to get back to you!
             </p> 
-            <Link href="https://ayush91176@gmail.com" target='_blank'><button className='w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300'>Say Hello</button></Link>
+            <Link href="https://mail.google.com/mail/u/0/?fs=1&to=ayush91176@gmail.com&tf=cm" target='_blank'><button className='w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300'>Say Hello</button></Link>
         </section>
     )
 }
