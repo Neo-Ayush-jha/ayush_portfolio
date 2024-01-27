@@ -18,7 +18,7 @@ function Education() {
 
                                 <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span><span className='text-textGreen'>SENIOR SECONDARY (XII PCM)</span> (BSEB)BBM HIGH SCHOOL, 2018-2020<br /><span className='text-textGreen'>CGPA: 7.9</span></li><br />
 
-                                <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span><span className='text-textGreen'>GRADUATION (BCA)</span><span className='ms-12'> PURNEA UNIVERSITY, 2020-2023</span><span className='text-textGreen'>TOTAL FINAL PERCENT: 8</span></li>
+                                <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span><span className='text-textGreen'>GRADUATION (BCA)</span><span className='ms-12'> PURNEA UNIVERSITY, 2020-2023</span><span className='text-textGreen'>FINAL PERCENT: 80%</span></li>
                             </ul>
                         </div>
                     </div>
