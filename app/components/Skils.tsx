@@ -19,17 +19,52 @@ function Skils() {
                     <div className='flex flex-col lgl:flex-row gap-16'>
                         <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
                             <p>Here are a few technologies I have been learn and work with recently:</p>
-                            <ul className='max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6'>
-                                <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>HTML(5)</li>
-                                <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>CSS(3)</li>
-                                <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>JS(ES6+)</li>
-                                <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Next.js(13)</li>
-                                <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Django</li>
-                                <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Node.js</li>
-                                <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>MySql</li>
-                                <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>MongoDB</li>
-                                <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Laravel</li>
-                            </ul>
+                            <table className='max-w-[450px] text-sm font-titleFont mt-6 border-collapse'>
+                                <thead>
+                                    <tr className='px-1 py-3'>
+                                        <th className="border border-textGreen px-1 py-3">Frontend</th>
+                                        <th className="border border-textGreen px-1 py-3">Backend</th>
+                                        <th className="border border-textGreen px-1 py-3">Database</th>
+                                        <th className="border border-textGreen px-1 py-3">Programming</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                    <td className="border border-textGreen ">
+                                            <ul>
+                                                <li className='flex items-center gap-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>HTML(5)</li>
+                                                <li className='flex items-center gap-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>CSS(3)</li>
+                                                <li className='flex items-center gap-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>JS(ES6+)</li>
+                                                <li className='flex items-center gap-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Next.js(13)</li>
+                                                <li className='flex items-center gap-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Bootstrap</li>
+                                                <li className='flex items-center gap-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Tailwind CSS</li>
+                                            </ul>
+                                        </td>
+                                        <td className="border border-textGreen px-1 py-3">
+                                            <ul>
+                                                <li className='flex items-center gap-2 px-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Django</li>
+                                                <li className='flex items-center gap-2 px-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Node.js</li>
+                                                <li className='flex items-center gap-2 px-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Laravel</li>
+                                            </ul>
+                                        </td>
+                                        <td className="border border-textGreen px-1 py-3">
+                                            <ul>
+                                                <li className='flex items-center gap-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>MySql</li>
+                                                <li className='flex items-center gap-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>MongoDB</li>
+                                            </ul>
+                                        </td>
+                                        <td className="border border-textGreen px-1 py-3">
+                                            <ul>
+                                                <li className='flex items-center gap-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>C</li>
+                                                <li className='flex items-center gap-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>C++</li>
+                                                <li className='flex items-center gap-2 py-2'><span className='text-textGreen'><AiFillThunderbolt /></span>Python</li>
+                                            </ul>
+                                        </td>
+                                       
+                                    </tr>
+                                </tbody>
+                            </table>
+
                         </div>
                     </div>
                 </div>
