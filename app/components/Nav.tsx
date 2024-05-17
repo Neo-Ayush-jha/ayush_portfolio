@@ -94,7 +94,7 @@ function Nav() {
                             </motion.li>
                         </Link>
                     </ul>
-                    <Link href="/proj/ayush.pdf" target='_blank'>
+                    <Link href="/proj/AyushKumarResume.pdf" target='_blank'>
                         <motion.button initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ duration: 0.7 }}
@@ -181,7 +181,7 @@ function Nav() {
                                             </motion.li>
                                         </Link>
                                     </ul>
-                                    <Link href="/proj/ayush.pdf" target='_blank'>
+                                    <Link href="/proj/AyushKumarResume.pdf" target='_blank'>
                                         <motion.button initial={{ opacity: 0 }}
                                             animate={{ opacity: 1 }}
                                             transition={{ duration: 0.7, ease: "easeIn" }}

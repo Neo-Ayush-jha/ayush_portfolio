@@ -9,10 +9,10 @@ function Education() {
     return (
         <section id='Education' className='max-w-containerSmall mx-auto py-10 flex flex-col gap-8'>
             <SectionTitle title="My Education" title_no="03" />
-            <div className='flex flex-col lgl:flex-row gap-16'>
+            <div className='flex flex-col lgl:flex-row gap-6'>
                 <div className='w-full lg:w-3/4 text-base text-textDark font-medium flex flex-col gap-4'>
-                    <div className='flex flex-col lgl:flex-row gap-16'>
-                        <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
+                    <div className='flex flex-col lgl:flex-row gap-6'>
+                        <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col'>
                             <table className='w-full text-sm font-titleFont mt-6 border border-textGreen'>
                                 <thead>
                                     <tr>
@@ -67,13 +67,8 @@ function Education() {
                                 </tbody>
                             </table>
 
-<<<<<<<<< Temporary merge branch 1
-                                <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span><span className='text-textGreen'>SENIOR SECONDARY (XII PCM)</span> (BSEB)BBM HIGH SCHOOL, 2018-2020<br /><span className='text-textGreen'>CGPA: 7.9</span></li><br />
+                            
 
-                                <li className='flex items-center gap-2'><span className='text-textGreen'><AiFillThunderbolt /></span><span className='text-textGreen'>GRADUATION (BCA)</span><span className='ms-12'> PURNEA UNIVERSITY, 2020-2023</span><span className='text-textGreen'>FINAL PERCENT: 80%</span></li>
-                            </ul>
-=========
->>>>>>>>> Temporary merge branch 2
                         </div>
                     </div>
                 </div>
@@ -84,7 +79,7 @@ function Education() {
                 </div>
 
             </div>
-        </section>
+        </section >
     )
 }
 
