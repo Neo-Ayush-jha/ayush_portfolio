@@ -10,7 +10,7 @@ function Incupad() {
             </h3>
             <p className="text-sm mt-1 font-medium text-textDark">DEC 12, 2023 <span className='text-textGreen tracking-wide'>- </span>PRESENT</p>
             <ul className='mt-6 flex flex-col gap-3'>
-                <li className='text-base flex gap-2 text-textDark'>
+                <li className='flex flex-col lgl:flex-row text-base flex gap-2 text-textDark'>
                     <span className="text-textGreen mt-1 "><TiArrowForward /></span>Frontend Developer
 
                     <ul className='ml-4 mt-2 list-disc text-sm'>
@@ -18,7 +18,7 @@ function Incupad() {
                         <li>Integrated Firebase authentication and Google services to enhance functionality and security.</li>
                     </ul>
                 </li>
-                <li className='text-base flex gap-2 text-textDark'>
+                <li className='flex flex-col lgl:flex-row text-base flex gap-2 text-textDark'>
                     <span className="text-textGreen mt-1 "><TiArrowForward /></span>API Integration and Development
                     <ul className='ml-4 mt-2 list-disc text-sm'>
                         <li>Played a pivotal role in API integration, connecting frontend components to backend services seamlessly.</li>
@@ -26,7 +26,7 @@ function Incupad() {
                         <li> Ensured smooth communication between frontend and backend systems, optimizing performance and user interactions.</li>
                     </ul>
                 </li>
-                <li className='text-base flex gap-2 text-textDark'>
+                <li className='flex flex-col lgl:flex-row text-base flex gap-2 text-textDark'>
                     <span className="text-textGreen mt-1 "><TiArrowForward /></span>Cross-Functional Collaboration
                     <ul className='ml-4 mt-2 list-disc text-sm'>
                         <li>Collaborated closely with backend developers, AI specialists, and project managers to align frontend requirements with overall project objectives.</li>
@@ -34,7 +34,7 @@ function Incupad() {
 
                     </ul>
                 </li>
-                <li className='text-base flex gap-2 text-textDark'>
+                <li className='flex flex-col lgl:flex-row text-base flex gap-2 text-textDark'>
                     <span className="text-textGreen mt-1 "><TiArrowForward /></span>Innovative Problem Solver
                     <ul className='ml-4 mt-2 list-disc text-sm'>
                         <li>Identified and addressed technical challenges in real-time, employing creative solutions to ensure the reliability and scalability of the Tau Chatbot.</li>

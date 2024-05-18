@@ -10,33 +10,33 @@ function ATG() {
             </h3>
             <p className="text-sm mt-1 font-medium text-textDark">SEP 18, 2023 <span className='text-textGreen tracking-wide'>- </span>PRESENT</p>
             <ul className='mt-6 flex flex-col gap-3'>
-                <li className=' flex flex-1 gap-2 text-textDark'>
+                <li className=' flex flex-col lgl:flex-row gap-2 text-textDark'>
                     <span className="text-textGreen mt-1 text-textGreen"><TiArrowForward /></span> Backend Development and API Integration:
                     <ul className='ml-4 mt-2 list-disc text-sm'>
                         <li>Leveraged Django 4.2.6 to develop and maintain high-performance backend services for web applications.</li>
                         <li>Created and managed RESTful APIs using Django Rest Framework (DRF) 3.14.0, ensuring efficient data exchange between frontend and backend.</li>
                     </ul>
                 </li>
-                <li className='text-base flex gap-2 text-textDark'>
+                <li className='flex flex-col lgl:flex-row text-base flex gap-2 text-textDark'>
                     <span className="text-textGreen mt-1 text-textGreen"><TiArrowForward /></span> Authentication and Security:
                     <ul className='ml-4 mt-2 list-disc text-sm'>
                         <li>Implemented secure user authentication and authorization with djangorestframework-simplejwt 5.3.0, enhancing application security.</li>
                         <li>Integrated Google Sign-In for a seamless login experience, enhancing user authentication using OAuth 2.0 protocols.</li>
                     </ul>
                 </li>
-                <li className='text-base flex gap-2 text-textDark'>
+                <li className='flex flex-col lgl:flex-row text-base flex gap-2 text-textDark'>
                     <span className="text-textGreen mt-1 text-textGreen"><TiArrowForward /></span> AWS Integration and Cloud Management:
                     <ul className='ml-4 mt-2 list-disc text-sm'>
                         <li>Utilized AWS services with boto3 1.34.39 and botocore 1.34.39 for efficient cloud storage solutions, managing static and media files using django-storages 1.14.2.</li>
                     </ul>
                 </li>
-                <li className='text-base flex gap-2 text-textDark'>
+                <li className='flex flex-col lgl:flex-row text-base flex gap-2 text-textDark '>
                     <span className="text-textGreen mt-1 text-textGreen"><TiArrowForward /></span> Database Management and Optimization:
                     <ul className='ml-4 mt-2 list-disc text-sm'>
                         <li>Managed and optimized MySQL and PostgreSQL databases using mysqlclient 2.2.0 and psycopg2 2.9.9, ensuring robust data handling and query performance.</li>
                     </ul>
                 </li>
-                <li className='text-base flex gap-2 text-textDark'>
+                <li className='flex flex-col lgl:flex-row text-base flex gap-2 text-textDark'>
                     <span className="text-textGreen mt-1 text-textGreen"><TiArrowForward /></span> Configuration and Environment Management:
                     <ul className='ml-4 mt-2 list-disc text-sm'>
                         <li>Streamlined configuration management with django-environ 0.11.2 and python-decouple 3.8, ensuring secure handling of environment variables across different deployment stages.</li>

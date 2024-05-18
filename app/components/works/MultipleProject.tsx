@@ -10,21 +10,21 @@ function MultipleProject() {
             </h3>
             <p className="text-sm mt-1 font-medium text-textDark">MAY 10, 2023 <span className='text-textGreen tracking-wide'>- </span>NOV 10, 2023</p>
             <ul className='mt-6 flex flex-col gap-3 text-sm'>
-                <li className='text-base flex gap-2 text-textDark'>
+                <li className='flex flex-col lgl:flex-row text-base flex gap-2 text-textDark'>
                     <span className="text-textGreen mt-1 text-textGreen"><TiArrowForward /></span>Backend Web Application Development:
                     <ul className='ml-4 mt-2 list-disc text-sm '>
                         <li>Specialized in backend development using Django, PHP Laravel, and JavaScript technologies to build robust and scalable web applications.</li>
                         <li>Demonstrated proficiency in designing and implementing backend functionalities, ensuring high performance and reliability.</li>
                     </ul>
                 </li>
-                <li className='text-base flex gap-2 text-textDark'>
+                <li className='flex flex-col lgl:flex-row text-base flex gap-2 text-textDark'>
                     <span className="text-textGreen mt-1 text-textGreen"><TiArrowForward /></span>Integration with Third-Party APIs:
                     <ul className='ml-4 mt-2 list-disc text-sm '>
                         <li>Successfully integrated third-party APIs such as Google and Razorpay for online payment processing, enhancing the functionality and usability of web applications.</li>
                         <li>Developed secure and seamless payment solutions, ensuring smooth transaction processing and user experience.</li>
                     </ul>
                 </li>
-                <li className='text-base flex gap-2 text-textDark'>
+                <li className='flex flex-col lgl:flex-row text-base flex gap-2 text-textDark'>
                     <span className="text-textGreen mt-1 text-textGreen"><TiArrowForward /></span>Cross-Functional Collaboration:
                     <ul className='ml-4 mt-2 list-disc text-sm '>
                         <li>Collaborated closely with frontend developers, project managers, and stakeholders to understand project requirements and deliver solutions that meet business objectives.</li>

