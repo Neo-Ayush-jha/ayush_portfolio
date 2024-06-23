@@ -131,8 +131,7 @@ function Project() {
                         <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
                         <h3 className='text-2xl font-bold'>MY-YOUTUBE <span className="text-textGreen">| Web Application</span></h3>
                         <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-                            The Hospital Management System is a comprehensive web application designed to streamline the operations of a hospital or healthcare facility. This system provides different panels, including
-                            <span className="text-textGreen">Patients, Doctors, Pharmacy, Pathology, Counter, Reception, and Blood Bank</span> to efficiently manage various aspects of patient care and administration.
+                            Create a YouTube-like web application using React and Tailwind CSS. This clone lets users watch, upload, and comment on videos, with content recommendations powered by the RapidAPI service. Features include user authentication, video uploads, subscriptions, trending videos, search functionality, and a dark mode toggle. Key technologies used are React for the UI, Tailwind CSS for styling, RapidAPI for video data, and Firebase/Auth0 for authentication. The project emphasizes a responsive, polished design and user-friendly experience.
                         </p>
 
                         <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
