@@ -10,28 +10,28 @@ function Frontend() {
 
             <div className="flex flex-wrap justify-center">
                 <div className="border border-textGreen  xl:px-4 xl:py-2 px-2 py-1 rounded-lg  xl:mx-2 xl:my-3 mx-2 my-2  flex flex-wrap">
-                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="26" height="26" alt="" /><span className="ml-2 font-medium text-textGreen">HTML</span>
+                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="26" height="26" alt="Frontend" /><span className="ml-2 font-medium text-textGreen">HTML</span>
                 </div>
                 <div className="border border-textGreen  xl:px-4 xl:py-2 px-2 py-1 rounded-lg  xl:mx-2 xl:my-3 mx-2 my-2  flex flex-wrap">
-                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="26" height="26" alt="" /><span className="ml-2 font-medium text-textGreen">CSS</span>
+                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="26" height="26" alt="Frontend" /><span className="ml-2 font-medium text-textGreen">CSS</span>
                 </div>
                 <div className="border border-textGreen  xl:px-4 xl:py-2 px-2 py-1 rounded-lg  xl:mx-2 xl:my-3 mx-2 my-2  flex flex-wrap">
-                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original-wordmark.svg" width="26" height="26" alt="" /><span className="ml-2 font-medium text-textGreen">BootStrap</span>
+                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original-wordmark.svg" width="26" height="26" alt="Frontend" /><span className="ml-2 font-medium text-textGreen">BootStrap</span>
                 </div>
                 <div className="border border-textGreen  xl:px-4 xl:py-2 px-2 py-1 rounded-lg  xl:mx-2 xl:my-3 mx-2 my-2  flex flex-wrap">
-                    <Image src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="26" height="26" alt="" /><span className="ml-2 font-medium text-textGreen">Tailwind Css</span>
+                    <Image src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="26" height="26" alt="Frontend" /><span className="ml-2 font-medium text-textGreen">Tailwind Css</span>
                 </div>
                 <div className="border border-textGreen  xl:px-4 xl:py-2 px-2 py-1 rounded-lg  xl:mx-2 xl:my-3 mx-2 my-2  flex flex-wrap">
-                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="26" height="26" alt="" /><span className="ml-2 font-medium text-textGreen">JavaScript(ES6+)</span>
+                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="26" height="26" alt="Frontend" /><span className="ml-2 font-medium text-textGreen">JavaScript(ES6+)</span>
                 </div>
                 <div className="border border-textGreen  xl:px-4 xl:py-2 px-2 py-1 rounded-lg  xl:mx-2 xl:my-3 mx-2 my-2  flex flex-wrap">
-                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="26" height="26" alt="" /><span className="ml-2 font-medium text-textGreen">React js</span>
+                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="26" height="26" alt="Frontend" /><span className="ml-2 font-medium text-textGreen">React js</span>
                 </div>
                 <div className="border border-textGreen  xl:px-4 xl:py-2 px-2 py-1 rounded-lg  xl:mx-2 xl:my-3 mx-2 my-2  flex flex-wrap">
-                    <Image src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="26" height="26" alt="" /><span className="ml-2 font-medium text-textGreen">Next js(13)</span>
+                    <Image src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="26" height="26" alt="Frontend" /><span className="ml-2 font-medium text-textGreen">Next js(13)</span>
                 </div>
                 <div className="border border-textGreen  xl:px-4 xl:py-2 px-2 py-1 rounded-lg  xl:mx-2 xl:my-3 mx-2 my-2  flex flex-wrap">
-                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="26" height="26" alt="" /><span className="ml-2 font-medium text-textGreen">Typescript</span>
+                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="26" height="26" alt="Frontend" /><span className="ml-2 font-medium text-textGreen">Typescript</span>
                 </div>
 
             </div>

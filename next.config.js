@@ -5,6 +5,7 @@ const nextConfig = {
         
         {hostname :"developer.mozilla.org"},
         {hostname :"cdn.worldvectorlogo.com"},
+        {hostname :"ayush-jha.netlify.app"},
 
       ],
       domains:["i.ibb.co"],
