@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import SectionTitle from './SectionTitle'
 import Image from 'next/image'
 import { motion } from "framer-motion";
@@ -7,9 +7,24 @@ import Frontend from './Skil/Frontend'
 import Backend from './Skil/Backend'
 import DataBase from './Skil/DataBase'
 import Other from './Skil/Other'
+
 function Skils() {
-    const isLargeScreen = window.innerWidth >= 1024; 
-  const isSmallScreen = window.innerWidth >= 640 && window.innerWidth < 1024;
+    const [isLargeScreen, setIsLargeScreen] = useState(false);
+    const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsLargeScreen(window.innerWidth >= 1024);
+            setIsSmallScreen(window.innerWidth >= 640 && window.innerWidth < 1024);
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     return (
         <section id='skills' className='max-w-containerSmall mx-auto py-10 flex flex-col gap-8'>
             <SectionTitle title="My Skills" title_no="02" />
@@ -23,7 +38,7 @@ function Skils() {
                     <div className='w-full lgl:w-1/2 text-base text-textDark font-medium flex flex-col gap-8 sm:mb-[50px]'>
                         <div className='flex flex-col lgl:flex-col gap-8'>
                             <div className='w-full text-base text-textDark font-medium flex flex-col'>
-                                <p>Here are a few technologies I have been learn and work with recently:</p>
+                                <p>Here are a few technologies I have been learning and working with recently:</p>
                             </div>
                             <Frontend />
                         </div>
@@ -39,4 +54,4 @@ function Skils() {
     )
 }
 
-export default Skils
+export default Skils;
