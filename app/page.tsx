@@ -15,6 +15,7 @@ import Footer from './components/Footer'
 import Footer2 from './components/Footer2'
 import Skils from './components/Skils'
 import Education from './components/Education'
+import Blog from './components/Blog'
 export default function Home() {
   return (
     <>
@@ -30,6 +31,7 @@ export default function Home() {
             <Experience />
             <Project />
             <Archive />
+            <Blog/>
             <Contact />
             <Footer />
             <Footer2 />
