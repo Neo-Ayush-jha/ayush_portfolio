@@ -13,7 +13,7 @@ import { RxOpenInNewWindow } from "react-icons/rx"
 function Project() {
     return (
         <section className='max-w-container mx-auto lgl:px-20 py-24' id="project">
-            <SectionTitle title="Some Things I have Build" title_no="04" />
+            <SectionTitle title="Some Things I have Build" title_no="05" />
             <div className="w-full flex flex-col items-center jsutify-center gap-28 mt-10">
                 <div className="flex flex-col xl:flex-row gap-6">
                     <Link href="https://github.com/Neo-Ayush-jha/hospital_management_system_backend-DJANGO" target='_blank' className='w-full xl:w-1/2 h-auto relative group '>

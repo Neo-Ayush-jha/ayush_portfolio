@@ -30,12 +30,12 @@ export default function Blog() {
     }, []);
 
     return (
-        <section className='max-w-container mx-auto lgl:px-20 py-24' id="project">
+        <section className='max-w-container mx-auto lgl:px-20' id="blog">
             <SectionTitle title="Explore my latest blog posts" title_no="06" />
 
-            <div className="w-full flex flex-col items-center">
+            <div className="w-full flex flex-col items-center ">
                 <h2 className="text-3xl font-titleFont font-semibold">My Blog</h2>
-                <p className="text-sm font-titleFont text-textGreen">Explore my latest blog posts</p>
+                <p className="text-sm font-titleFont text-textGreen ">Explore my latest blog posts</p>
             </div>
             {posts.length > 0 ? (
                 <Swiper
@@ -52,13 +52,14 @@ export default function Blog() {
                         modifier: 1,
                         slideShadows: true,
                     }}
+                    style={{marginTop:'24px'}}
                     pagination={{ clickable: true }}
                     className="mySwiper"
                 >
                     {posts.map((post) => (
                         <SwiperSlide key={post.id} style={{
                             width: '600px',
-                            height: '500px', 
+                            height: '365px', 
                             transition: 'width 0.3s ease, opacity 0.3s ease', 
                             padding: '4px 8px 4px 4px',
                         }}>

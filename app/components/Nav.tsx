@@ -84,20 +84,29 @@ function Nav() {
                                 <span className='text-textGreen'>05.</span>Project
                             </motion.li>
                         </Link>
+                        <Link href="#blog" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
+                            <motion.li
+                                initial={{ y: -10, opacity: 0 }}
+                                animate={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.1, delay: 0.7 }}
+                            >
+                                <span className='text-textGreen'>06.</span>Blog
+                            </motion.li>
+                        </Link>
                         <Link href="#contact" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
                             <motion.li
                                 initial={{ y: -10, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
-                                transition={{ duration: 0.1, delay: 0.6 }}
+                                transition={{ duration: 0.1, delay: 0.7 }}
                             >
-                                <span className='text-textGreen'>06.</span>Contact
+                                <span className='text-textGreen'>07.</span>Contact
                             </motion.li>
                         </Link>
                     </ul>
                     <Link href="/proj/AyushKumarResume.pdf" target='_blank'>
                         <motion.button initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
-                            transition={{ duration: 0.7 }}
+                            transition={{ duration: 0.8 }}
                             className='px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300'>
                             Resume
                         </motion.button>
@@ -171,20 +180,29 @@ function Nav() {
                                                 <span className='text-textGreen'>05.</span>Project
                                             </motion.li>
                                         </Link>
-                                        <Link href="#contact" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
+                                        <Link href="#blog" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
                                             <motion.li
                                                 initial={{ x: 20, opacity: 0 }}
                                                 animate={{ x: 0, opacity: 1 }}
                                                 transition={{ duration: 0.7, delay: 0.7, ease: "easeIn" }}
                                             >
-                                                <span className='text-textGreen'>06.</span>Contact
+                                                <span className='text-textGreen'>06.</span>Blog
+                                            </motion.li>
+                                        </Link>
+                                        <Link href="#contact" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
+                                            <motion.li
+                                                initial={{ x: 20, opacity: 0 }}
+                                                animate={{ x: 0, opacity: 1 }}
+                                                transition={{ duration: 0.8, delay: 0., ease: "easeIn" }}
+                                            >
+                                                <span className='text-textGreen'>07.</span>Contact
                                             </motion.li>
                                         </Link>
                                     </ul>
                                     <Link href="/proj/AyushKumarResume.pdf" target='_blank'>
                                         <motion.button initial={{ opacity: 0 }}
                                             animate={{ opacity: 1 }}
-                                            transition={{ duration: 0.7, ease: "easeIn" }}
+                                            transition={{ duration: 0.8, ease: "easeIn" }}
                                             className='w-32 h-10 rounded-md text-textGreen text-[25px]  border border-textGreen hover:bg-hoverColor duration-300 mt-20'>
                                             Resume
                                         </motion.button>
