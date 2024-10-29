@@ -39,12 +39,10 @@ export default function Blog() {
             </div>
             {posts.length > 0 ? (
                 <Swiper
-                    initialSlide={0}
                     effect="coverflow"
                     grabCursor={true}
                     centeredSlides={true}
-                    slidesPerView={2} 
-                    spaceBetween={24} 
+                    spaceBetween={24}
                     coverflowEffect={{
                         rotate: 50,
                         stretch: 0,
@@ -52,21 +50,33 @@ export default function Blog() {
                         modifier: 1,
                         slideShadows: true,
                     }}
-                    style={{marginTop:'24px'}}
                     pagination={{ clickable: true }}
+                    style={{ marginTop: '24px' }}
                     className="mySwiper"
+                    breakpoints={{
+                        320: { slidesPerView: 1, spaceBetween: 8 },  // Extra small screens
+                        640: { slidesPerView: 1.2, spaceBetween: 12 },  // Small screens
+                        768: { slidesPerView: 1.5, spaceBetween: 16 },  // Medium screens
+                        1024: { slidesPerView: 2, spaceBetween: 24 },  // Large screens
+                    }}
                 >
                     {posts.map((post) => (
-                        <SwiperSlide key={post.id} style={{
-                            width: '600px',
-                            height: '365px', 
-                            transition: 'width 0.3s ease, opacity 0.3s ease', 
-                            padding: '4px 8px 4px 4px',
-                        }}>
+                        <SwiperSlide
+                            key={post.id}
+                            className="flex justify-center items-center"
+                            style={{
+                                width: '100%',  // Adjust width for responsive sizing
+                                height: '365px',
+                                padding: '4px 8px',
+                                transition: 'all 0.3s ease',
+                            }}
+                        >
                             <BlogPost post={post} />
                         </SwiperSlide>
                     ))}
                 </Swiper>
+
+
             ) : (
                 <p>No blog posts available.</p>
             )}
