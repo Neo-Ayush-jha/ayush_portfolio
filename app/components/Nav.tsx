@@ -10,6 +10,7 @@ import { MdOutlineClose } from "react-icons/md";
 import { TbBrandGithub } from "react-icons/tb";
 import { SlSocialTwitter } from "react-icons/sl";
 import { SlSocialLinkedin, SlSocialFacebook, SlSocialInstagram, SlSocialGoogle } from "react-icons/sl";
+import { FaBloggerB } from 'react-icons/fa'
 function Nav() {
     const [showMenu, setShowMenu] = useState(false)
     const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -208,7 +209,7 @@ function Nav() {
                                         </motion.button>
                                     </Link>
 
-                                    <div className='flex xl:hidden items-center justify-center  w-full px-sm-12 py-6 gap-3'>
+                                    <div className='flex xl:hidden items-center justify-center  w-full py-6 gap-3'>
                                         <Link href="https://github.com/Neo-Ayush-jha" target="_blank">
                                             <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'><TbBrandGithub /></span>
                                         </Link>
@@ -223,6 +224,9 @@ function Nav() {
                                         </Link>
                                         <Link href="https://www.facebook.com/ayushkumar.jha.3760" target="_blank">
                                             <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'><SlSocialFacebook /></span>
+                                        </Link>
+                                        <Link href="https://neo-ayush-jha.blogspot.com" target="_blank">
+                                            <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'><FaBloggerB /></span>
                                         </Link>
                                     </div>
                                 </div>
