@@ -170,6 +170,7 @@ function Nav() {
                                                 transition={{ duration: 0.5, delay: 0.5, ease: "easeIn" }}
                                             >
                                                 <span className='text-textGreen'>04.</span>Experience
+                                                
                                             </motion.li>
                                         </Link>
                                         <Link href="#project" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
