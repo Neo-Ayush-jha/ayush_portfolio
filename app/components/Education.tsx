@@ -51,7 +51,7 @@ function Education() {
                                             <span>CGPA: 7.9</span>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr className='border border-textGreen'>
                                         <td className='px-1 flex flex-1 gap-2 py-3  justify-center items-center border-r border-textGreen'>
                                             <span className='text-textGreen'><AiFillThunderbolt /></span>
                                             <span className='text-textGreen'>GRADUATION <span className='ps-4'>(BCA)</span></span>
