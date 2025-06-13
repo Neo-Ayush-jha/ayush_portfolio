@@ -8,7 +8,7 @@ function Incupad() {
             <h3 className='flex gap-1 font-medium text-xl font-titleFont'>
                 INCUPAD INDIA<span className='text-textGreen tracking-wide'>Pvt. Ltd. </span>
             </h3>
-            <p className="text-sm mt-1 font-medium text-textDark">MAR, 2024 <span className='text-textGreen tracking-wide'>- </span>OCT, 2024</p>
+            <p className="text-sm mt-1 font-medium text-textDark">MARCH, 2024 <span className='text-textGreen tracking-wide'>- </span>OCTOBER, 2024</p>
             <ul className='mt-6 flex flex-col gap-3'>
                 <li className='flex flex-col lgl:flex-row text-base flex gap-2 text-textDark'>
                     <span className="text-textGreen mt-1 "><TiArrowForward /></span>Frontend Developer
