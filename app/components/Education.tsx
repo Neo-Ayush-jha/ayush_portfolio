@@ -54,7 +54,7 @@ function Education() {
                                     <tr className='border border-textGreen'>
                                         <td className='px-1 flex flex-1 gap-2 py-3  justify-center items-center border-r border-textGreen'>
                                             <span className='text-textGreen'><AiFillThunderbolt /></span>
-                                            <span className='text-textGreen'>GRADUATION <span className='ps-4'>(BCA)</span></span>
+                                            <span className='text-textGreen'>Bachelor of Computer Applications</span>
                                         </td>
                                         <td className='px-1 py-3 border-r border-textGreen'>PURNIA UNIVERSITY</td>
                                         <td className='px-1 py-3 border-r border-textGreen'>
@@ -67,7 +67,7 @@ function Education() {
                                     <tr>
                                         <td className='px-1 flex flex-1 gap-2 py-3  justify-center items-center border-r border-textGreen'>
                                             <span className='text-textGreen'><AiFillThunderbolt /></span>
-                                            <span className='text-textGreen'>MASTERS <span className='ps-4'>(MCA)</span></span>
+                                            <span className='text-textGreen'>Master of Computer Applications</span>
                                         </td>
                                         <td className='px-1 py-3 border-r border-textGreen'>LOVELY PROFESSIONAL UNIVERSITY</td>
                                         <td className='px-1 py-3 border-r border-textGreen'>
