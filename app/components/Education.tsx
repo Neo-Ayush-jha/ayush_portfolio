@@ -64,6 +64,19 @@ function Education() {
                                             <span>CGPA: 8.5</span>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td className='px-1 flex flex-1 gap-2 py-3  justify-center items-center border-r border-textGreen'>
+                                            <span className='text-textGreen'><AiFillThunderbolt /></span>
+                                            <span className='text-textGreen'>MASTERS <span className='ps-4'>(MCA)</span></span>
+                                        </td>
+                                        <td className='px-1 py-3 border-r border-textGreen'>LOVELY PROFESSIONAL UNIVERSITY</td>
+                                        <td className='px-1 py-3 border-r border-textGreen'>
+                                            <span className='text-textGreen'>2024-2026</span>
+                                        </td>
+                                        <td className='px-1 py-3 '>
+                                            <span>CGPA: 7.24</span>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
 
