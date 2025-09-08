@@ -24,7 +24,7 @@ function Education() {
                                 </thead>
                                 <tbody>
                                     <tr className='border border-textGreen'>
-                                        <td className='px-1 flex flex-1 gap-2 py-3 border-r border-textGreen justify-center items-center'>
+                                        <td className='px-1 flex flex-1 gap-2 py-3 border-r border-textGreen  items-center'>
                                             <span className='text-textGreen'><AiFillThunderbolt /></span>
                                             <span className='text-textGreen '>UPPER PRIMARY <span className=' ps-3'>(X)</span></span>
                                         </td>
@@ -33,11 +33,11 @@ function Education() {
                                             <span className='text-textGreen'>2017-2018</span>
                                         </td>
                                         <td className='px-1 py-3 '>
-                                            <span>CGPA: 7</span>
+                                            <span>65%</span>
                                         </td>
                                     </tr>
                                     <tr className='border border-textGreen'>
-                                        <td className='px-1 flex flex-1 gap-2 py-3  justify-center items-center border-r border-textGreen'>
+                                        <td className='px-1 flex flex-1 gap-2 py-3   items-center border-r border-textGreen'>
                                             <span className='text-textGreen'><AiFillThunderbolt /></span>
                                             <span className='text-textGreen'>SENIOR SECONDARY (XII PCM)</span>
                                         </td>
@@ -48,11 +48,11 @@ function Education() {
                                             <span className='text-textGreen'>2018-2020</span>
                                         </td>
                                         <td className='px-1 py-3 '>
-                                            <span>CGPA: 7.9</span>
+                                            <span>75%</span>
                                         </td>
                                     </tr>
                                     <tr className='border border-textGreen'>
-                                        <td className='px-1 flex flex-1 gap-2 py-3  justify-center items-center border-r border-textGreen'>
+                                        <td className='px-1 flex flex-1 gap-2 py-3   items-center border-r border-textGreen'>
                                             <span className='text-textGreen'><AiFillThunderbolt /></span>
                                             <span className='text-textGreen'>Bachelor of Computer Applications</span>
                                         </td>
@@ -61,20 +61,20 @@ function Education() {
                                             <span className='text-textGreen'>2020-2023</span>
                                         </td>
                                         <td className='px-1 py-3 '>
-                                            <span>CGPA: 8.5</span>
+                                            <span>79%</span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className='px-1 flex flex-1 gap-2 py-3  justify-center items-center border-r border-textGreen'>
+                                        <td className='px-1 flex flex-1 gap-2 py-3 items-center border-r border-textGreen'>
                                             <span className='text-textGreen'><AiFillThunderbolt /></span>
-                                            <span className='text-textGreen'>Master of Computer Applications</span>
+                                            <span className='text-textGreen py-2'>Master of Computer Applications</span>
                                         </td>
                                         <td className='px-1 py-3 border-r border-textGreen'>LOVELY PROFESSIONAL UNIVERSITY</td>
                                         <td className='px-1 py-3 border-r border-textGreen'>
                                             <span className='text-textGreen'>2024-2026</span>
                                         </td>
                                         <td className='px-1 py-3 '>
-                                            <span>CGPA: 7.24</span>
+                                            <span>8.1</span>
                                         </td>
                                     </tr>
                                 </tbody>

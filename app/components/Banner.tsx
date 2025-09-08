@@ -20,7 +20,7 @@ function Banner() {
               }}
             /> </motion.h3>
             <motion.h1 initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.7 }} className='text-4xl lgl:text-6xl font-semibold font-titleFont  flex flex-col'>Ayush kumar. <span className='text-textDark mt-2 lgl:mt-4'>I build things for the web.</span></motion.h1>
-            <motion.p initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.8 }} className='text-base md:max-w-[650px] text-textDark font-medium '>Hi, I am Ayush Kumar, a web developer. I am passionate about my work because I love what I do and learn from it. This passion of mine in the beginning of programming made me face many challenges every day, and it helped me to learn and understand it better. My teacher has played a huge role in my learning phase; he always helps me to understand the code, and he always pushes me into deeper and deeper concepts to build my coding skills and enhance my knowledge.
+            <motion.p initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.8 }} className='text-base md:max-w-[650px] text-textDark font-medium '>I am passionate about my work because I love what I do and learn from it. This passion of mine in the beginning of programming made me face many challenges every day, and it helped me to learn and understand it better. My teacher has played a huge role in my learning phase; he always helps me to understand the code, and he always pushes me into deeper and deeper concepts to build my coding skills and enhance my knowledge.
               <Link href="#about" >
                 <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group '>
                   Learn More
@@ -28,7 +28,7 @@ function Banner() {
                 </span>
               </Link>
             </motion.p>
-            <motion.button initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.9 }} className='w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300  mt-10'><Link href="https://github.com/Neo-Ayush-jha" target='_blank'>Check out my Project!</Link></motion.button>
+            <motion.button initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.9 }} className='w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300  mt-10'><Link href="https://github.com/Neo-Ayush-jha" target='_blank'>Check out my Projects!</Link></motion.button>
           </div>
           <motion.div className="lg:w-3/10 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0" initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.8 }}>
             <Image src={SrcPro} alt="Ayush" className="rounded-md w-full lg:h-auto object-cover object-center" />
