@@ -37,7 +37,7 @@ function Nav() {
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.1 }}
                             >
-                                Home
+                                <span className='text-textGreen'>Home</span>
                             </motion.li>
                         </Link>
                         <Link href="#about" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
@@ -46,7 +46,7 @@ function Nav() {
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.1, delay: 0.1 }}
                             >
-                                <span className='text-textGreen'>01.</span>About
+                                <span className='text-textGreen'>About</span>
                             </motion.li>
                         </Link>
                         <Link href="#skills" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
@@ -55,7 +55,7 @@ function Nav() {
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.1, delay: 0.2 }}
                             >
-                                <span className='text-textGreen'>02.</span>Skills
+                                <span className='text-textGreen'>Skills</span>
                             </motion.li>
                         </Link>
                         <Link href="#Education" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
@@ -64,7 +64,7 @@ function Nav() {
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.1, delay: 0.3 }}
                             >
-                                <span className='text-textGreen'>03.</span>Education
+                                <span className='text-textGreen'>Education</span>
                             </motion.li>
                         </Link>
                         <Link href="#experience" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
@@ -73,7 +73,7 @@ function Nav() {
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.1, delay: 0.4 }}
                             >
-                                <span className='text-textGreen'>04.</span>Experience
+                                <span className='text-textGreen'>Experience</span>
                             </motion.li>
                         </Link>
                         <Link href="#project" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
@@ -82,7 +82,7 @@ function Nav() {
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.1, delay: 0.5 }}
                             >
-                                <span className='text-textGreen'>05.</span>Project
+                                <span className='text-textGreen'>Project</span>
                             </motion.li>
                         </Link>
                         <Link href="#blog" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
@@ -91,7 +91,7 @@ function Nav() {
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.1, delay: 0.7 }}
                             >
-                                <span className='text-textGreen'>06.</span>Blog
+                                <span className='text-textGreen'>Blog</span>
                             </motion.li>
                         </Link>
                         <Link href="#contact" className='flex item-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' onClick={handleScroll}>
@@ -100,7 +100,7 @@ function Nav() {
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.1, delay: 0.7 }}
                             >
-                                <span className='text-textGreen'>07.</span>Contact
+                                <span className='text-textGreen'>Contact</span>
                             </motion.li>
                         </Link>
                     </ul>
