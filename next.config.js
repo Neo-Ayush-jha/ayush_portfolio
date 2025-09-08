@@ -7,6 +7,7 @@ const nextConfig = {
       { hostname: "cdn.worldvectorlogo.com" },
       { hostname: "ayush-jha.netlify.app" },
       { hostname: "blogger.googleusercontent.com" },
+      { hostname: "img.icons8.com" },
 
     ],
     domains: ["i.ibb.co"],
