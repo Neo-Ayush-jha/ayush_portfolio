@@ -74,7 +74,7 @@ function Education() {
                                             <span className='text-textGreen'>2024-2026</span>
                                         </td>
                                         <td className='px-1 py-3 '>
-                                            <span>8.1</span>
+                                            <span>81%</span>
                                         </td>
                                     </tr>
                                 </tbody>
