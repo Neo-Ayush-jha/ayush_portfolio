@@ -14,7 +14,7 @@ function CelebalTech() {
         <span className="text-textGreen tracking-wide">TECHNOLOGIES</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        FEBRUARY, 2025 <span className="text-textGreen tracking-wide">- </span>
+        JUNE, 2025 <span className="text-textGreen tracking-wide">- </span>
         AUGUST, 2025
       </p>
       <ul className="mt-6 flex flex-col gap-3 text-sm">
