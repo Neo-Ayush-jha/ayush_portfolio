@@ -32,7 +32,7 @@ function Incupad() {
             </li>
           </ul>
         </li>
-        <li className="flex flex-col lgl:flex-row text-base flex gap-2 text-textDark">
+        <li className="flex flex-col lgl:flex-row text-base  gap-2 text-textDark">
           <ul className="ml-4 mt-2 list-disc text-sm">
             <li>
               <span className="text-textGreen mt-1 ">
