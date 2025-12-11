@@ -75,7 +75,6 @@ export default function Blog() {
               }}
             >
               <BlogPost post={post} />
-              <p>{post.content}</p>
             </SwiperSlide>
           ))}
         </Swiper>
