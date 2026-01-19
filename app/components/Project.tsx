@@ -6,12 +6,12 @@ import School from "@/public/proj/school.png";
 import Microcourses from "@/public/proj/microcourses.png";
 import Game from "@/public/proj/game.png";
 import Youtube from "@/public/proj/youtube.png";
-import GigFlow from "@/public/proj/gigflow.png";
+import GigFlow from "@/public/proj/GigFlow.png";
 import Link from "next/link";
 import { TbBrandGithub } from "react-icons/tb";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { RxOpenInNewWindow } from "react-icons/rx";
-import WebScanner from "@/public/proj/webscanner.png";
+import WebScanner from "@/public/proj/WebScanner.png";
 
 function Project() {
   return (
