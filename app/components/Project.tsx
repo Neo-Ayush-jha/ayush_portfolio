@@ -6,14 +6,175 @@ import School from "@/public/proj/school.png";
 import Microcourses from "@/public/proj/microcourses.png";
 import Game from "@/public/proj/game.png";
 import Youtube from "@/public/proj/youtube.png";
+import GigFlow from "@/public/proj/gigflow.png";
 import Link from "next/link";
 import { TbBrandGithub } from "react-icons/tb";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { RxOpenInNewWindow } from "react-icons/rx";
+import WebScanner from "@/public/proj/webscanner.png";
+
 function Project() {
   return (
     <section className="max-w-container mx-auto lgl:px-20 py-24" id="project">
       <SectionTitle title="Some Things I have Build" title_no="05" />
+      {/* Gig Marketplace Platform */}
+      <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <div className="flex flex-col xl:flex-row gap-6">
+          <Link
+            href="https://gigflow-ten-lyart.vercel.app/"
+            target="_blank"
+            className="w-full xl:w-1/2 h-auto relative group"
+          >
+            <div>
+              <Image
+                src={GigFlow}
+                alt="Gig Marketplace"
+                className="w-full h-full object-contain rounded-md"
+              />
+            </div>
+          </Link>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+            <p className="font-titleFont text-textGreen text-sm tracking-wide">
+              Featured Project
+            </p>
+            <h3 className="text-2xl font-bold">
+              GigFlow |{" "}
+              <span className="text-textGreen">| Web Application</span>
+            </h3>
+            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md text-left">
+              <span className="text-textGreen">
+                GigFlow: Full-Stack Gig Marketplace Engineered for Scale.
+              </span>{" "}
+              I designed and implemented GigFlow, a robust gig marketplace
+              platform, to showcase my full-stack expertise on complex,
+              production-ready systems. The application is built using React.js
+              and TypeScript with a modern Tailwind CSS interface, and its
+              backend is defined by a resilient Node.js Express API. This API is
+              engineered for demanding requirements like real-time bidding,
+              secure user authentication, and persistent data management with
+              MongoDB. It successfully handles critical marketplace workflows,
+              including multi-role management
+              <span className="text-textGreen">
+                (Freelancer, Client, Admin)
+              </span>
+              , dynamic gig posting and discovery, live bidding system,
+              real-time notifications via Socket.io, and comprehensive dashboard
+              analytics for users.
+            </p>
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+              <li>React.js</li>
+              <li>TypeScript</li>
+              <li>Tailwind CSS</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+            </ul>
+            <div className="text-2xl flex gap-4">
+              <Link
+                className="hover:text-textGreen duration-300"
+                target="_blank"
+                href="https://github.com/Neo-Ayush-jha/gigflow"
+              >
+                <TbBrandGithub />
+              </Link>
+              <Link
+                className="hover:text-textGreen duration-300"
+                target="_blank"
+                href="https://drive.google.com/file/d/1MF05EXCLmRvCFRZwEzOB6A9sRTuVP3G6/view?usp=drivesdk"
+              >
+                <AiOutlineYoutube />
+              </Link>
+              <Link
+                className="hover:text-textGreen duration-300"
+                target="_blank"
+                href="https://gigflow-ten-lyart.vercel.app/"
+              >
+                <RxOpenInNewWindow />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* SPIDER - Web Scanner & Port Scanner */}
+      <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <div className="flex flex-col xl:flex-row-reverse gap-6">
+          <Link
+            href="https://github.com/yourusername/Web-Scanner"
+            target="_blank"
+            className="w-full xl:w-1/2 h-auto relative group"
+          >
+            <div>
+              <Image
+                src={WebScanner}
+                alt="SPIDER Web Scanner"
+                className="w-full h-full object-contain rounded-md"
+              />
+            </div>
+          </Link>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-right xl:-mr-16 z-10">
+            <p className="font-titleFont text-textGreen text-sm tracking-wide">
+              Featured Project
+            </p>
+            <h3 className="text-2xl font-bold">
+              SPIDER - Scan & Port Inspection |{" "}
+              <span className="text-textGreen">| Security Tool</span>
+            </h3>
+            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md text-left">
+              <span className="text-textGreen">SPIDER (Scan & Port Inspection: Discovery & Exploitation Report):</span> A powerful
+              web-based port scanner and web vulnerability detection tool
+              designed for cybersecurity learners, ethical hackers, and network
+              administrators. Built with Django and powered by Nmap, it provides
+              comprehensive network security analysis with asynchronous scanning
+              capabilities. Features include IP address & domain scanning,
+              multi-mode port scanning (Common, Top, Full, Custom Range),
+              service & version detection, and web vulnerability analysis for
+              security headers, server exposure, and directory listings. The
+              platform utilizes{" "}
+              <span className="text-textGreen">
+                Celery + Redis for background task processing
+              </span>
+              , delivers real-time scan results, maintains complete scan
+              history, and supports report exports in{" "}
+              <span className="text-textGreen">PDF, CSV, and JSON</span>{" "}
+              formats. Includes user authentication, payment integration, and
+              role-based access for admins, analysts, and developers.
+            </p>
+
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+              <li>Django</li>
+              <li>Python</li>
+              <li>Nmap</li>
+              <li>Celery</li>
+              <li>Redis</li>
+              <li>TailwindCSS</li>
+              <li>SQLite</li>
+            </ul>
+            <div className="text-2xl flex gap-4">
+              <Link
+                className="hover:text-textGreen duration-300"
+                target="_blank"
+                href="https://github.com/Neo-Ayush-jha/SPIDER"
+              >
+                <TbBrandGithub />
+              </Link>
+              <Link
+                className="hover:text-textGreen duration-300"
+                target="_blank"
+                href="https://youtu.be/iDgt8b-zHbg?si=eN19YKX5OIeCrpQ3"
+              >
+                <AiOutlineYoutube />
+              </Link>
+              <Link
+                className="hover:text-red-300 text-red-700 duration-300"
+                target="_blank"
+                href="https://github.com/yourusername/Web-Scanner"
+              >
+                <RxOpenInNewWindow />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* Course management system LMS */}
       <div className="w-full flex flex-col items-center jsutify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
