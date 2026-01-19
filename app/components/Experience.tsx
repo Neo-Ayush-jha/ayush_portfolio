@@ -31,7 +31,7 @@ function Experience() {
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-34 flex flex-col">
           <li className="border-1-2 border-1-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
-            BACKEND DEVELOPER INTERN
+            JUNIOR FULL-STACK DEVELOPER
           </li>
         </ul>
         <Incupad />
@@ -39,7 +39,7 @@ function Experience() {
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-34 flex flex-col">
           <li className="border-1-2 border-1-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
-            SUMMER INTERN IN THE NODE JS
+            SUMMER TRANING IN NODE JS
           </li>
         </ul>
         <CelebalTech />
