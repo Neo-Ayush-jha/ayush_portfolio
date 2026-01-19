@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import A from "../../public/a.png"
 // import resume from "../../public/resume.pdf"
 import Link from 'next/link'
@@ -13,10 +13,36 @@ import { SlSocialLinkedin, SlSocialFacebook, SlSocialInstagram, SlSocialGoogle }
 import { FaBloggerB } from 'react-icons/fa'
 function Nav() {
     const [showMenu, setShowMenu] = useState(false)
+
     const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+        const target = e.currentTarget.getAttribute('href') || ''
         setShowMenu(false)
 
+        if (target.startsWith('#')) {
+            e.preventDefault()
+            const id = target.slice(1)
+            const el = document.getElementById(id)
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                // update URL hash without jumping
+                history.replaceState(null, '', target)
+            }
+        }
     }
+
+    useEffect(() => {
+        // On mount, if there's a hash in the URL, scroll to it smoothly
+        if (typeof window === 'undefined') return
+        const hash = window.location.hash
+        if (hash) {
+            const id = hash.slice(1)
+            // small timeout to allow layout to finish
+            setTimeout(() => {
+                const el = document.getElementById(id)
+                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+            }, 80)
+        }
+    }, [])
     return (
         <div className='w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4'>
             <div className="max-w-container h-full mx-auto py-1 px-18 font-titleFont flex items-center justify-between">
@@ -120,10 +146,10 @@ function Nav() {
                 </div>
                 {
                     showMenu && (
-                        <div onClick={() => handleScroll} className='absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end'>
+                        <div onClick={() => setShowMenu(false)} className='absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end'>
                             <motion.div initial={{ x: 20, opacity: 0 }}
                                 animate={{ x: 0, opacity: 1 }}
-                                transition={{ duration: 0.1 }} className='w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#112240] flex flex-col items-center px-4 py-10 relative'>
+                                transition={{ duration: 0.1 }} onClick={(e) => e.stopPropagation()} className='w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#112240] flex flex-col items-center px-4 py-10 relative'>
                                 <MdOutlineClose onClick={() => setShowMenu(false)} className="text-3xl text-textGreen cursor-pointer hover:text-red-500 absolute top-4 right-4" />
                                 <div>
                                     <ul className='flex flex-col text-[25px] gap-7 '>
