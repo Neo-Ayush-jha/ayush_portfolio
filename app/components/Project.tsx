@@ -120,16 +120,19 @@ function Project() {
               <span className="text-textGreen">| Security Tool</span>
             </h3>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md text-left">
-              <span className="text-textGreen">SPIDER (Scan & Port Inspection: Discovery & Exploitation Report):</span> A powerful
-              web-based port scanner and web vulnerability detection tool
-              designed for cybersecurity learners, ethical hackers, and network
-              administrators. Built with Django and powered by Nmap, it provides
-              comprehensive network security analysis with asynchronous scanning
-              capabilities. Features include IP address & domain scanning,
-              multi-mode port scanning (Common, Top, Full, Custom Range),
-              service & version detection, and web vulnerability analysis for
-              security headers, server exposure, and directory listings. The
-              platform utilizes{" "}
+              <span className="text-textGreen">
+                SPIDER (Scan & Port Inspection: Discovery & Exploitation
+                Report):
+              </span>{" "}
+              A powerful web-based port scanner and web vulnerability detection
+              tool designed for cybersecurity learners, ethical hackers, and
+              network administrators. Built with Django and powered by Nmap, it
+              provides comprehensive network security analysis with asynchronous
+              scanning capabilities. Features include IP address & domain
+              scanning, multi-mode port scanning (Common, Top, Full, Custom
+              Range), service & version detection, and web vulnerability
+              analysis for security headers, server exposure, and directory
+              listings. The platform utilizes{" "}
               <span className="text-textGreen">
                 Celery + Redis for background task processing
               </span>
@@ -396,7 +399,7 @@ function Project() {
           </div>
         </div>
       </div>
-
+      {/* AI NyayDetect */}
       <div className="w-full flex flex-col items-center jsutify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <Link
