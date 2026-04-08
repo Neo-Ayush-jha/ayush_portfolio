@@ -7,10 +7,8 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
+import { EffectCoverflow, Pagination } from "swiper/modules";
 import SectionTitle from "./SectionTitle";
-
-SwiperCore.use([EffectCoverflow, Pagination]);
 
 export default function Blog() {
   const [posts, setPosts] = useState([]);
@@ -42,6 +40,7 @@ export default function Blog() {
       </div>
       {posts.length > 0 ? (
         <Swiper
+          modules={[EffectCoverflow, Pagination]}
           effect="coverflow"
           grabCursor={true}
           centeredSlides={true}
