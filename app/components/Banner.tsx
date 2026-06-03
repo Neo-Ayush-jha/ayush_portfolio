@@ -2,7 +2,9 @@ import React from 'react'
 import { motion } from "framer-motion";
 import Link from 'next/link';
 import Image from 'next/image';
-import SrcPro from "@/public/proj/src.svg"
+// import SrcPro from "@/public/proj/src.svg"
+import Profile from "@/public/ayush.png"
+
 import Typewriter from 'typewriter-effect';
 function Banner() {
   return (
@@ -20,7 +22,9 @@ function Banner() {
               }}
             /> </motion.h3>
             <motion.h1 initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.7 }} className='text-4xl lgl:text-6xl font-semibold font-titleFont  flex flex-col'>Ayush kumar. <span className='text-textDark mt-2 lgl:mt-4'>I build things for the web.</span></motion.h1>
-            <motion.p initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.8 }} className='text-base md:max-w-[650px] text-textDark font-medium '>I am passionate about my work because I love what I do and learn from it. This passion of mine in the beginning of programming made me face many challenges every day, and it helped me to learn and understand it better. My teacher has played a huge role in my learning phase; he always helps me to understand the code, and he always pushes me into deeper and deeper concepts to build my coding skills and enhance my knowledge.
+            <motion.p initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.8 }} className='text-base md:max-w-[650px] text-textDark font-medium '>I&apos;m a Full Stack Developer passionate about creating modern, high-performance web applications using React.js, Next.js, Django, Node.js, and Laravel. With hands-on experience in developing AI-powered solutions, REST APIs, and production-ready platforms, I enjoy transforming complex ideas into intuitive and impactful digital products.
+
+              Currently pursuing my MCA while working on real-world projects, I continuously explore new technologies and best practices to build secure, scalable, and user-focused applications.
               <Link href="#about" >
                 <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group '>
                   Learn More
@@ -30,8 +34,22 @@ function Banner() {
             </motion.p>
             <motion.button initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.9 }} className='w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300  mt-10'><Link href="https://github.com/Neo-Ayush-jha" target='_blank'>Check out my Projects!</Link></motion.button>
           </div>
-          <motion.div className="lg:w-3/10 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0" initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.8 }}>
-            <Image src={SrcPro} alt="Ayush" className="rounded-md w-full lg:h-auto object-cover object-center" />
+          <motion.div className="lg:w-3/10 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex justify-center lg:justify-end" initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.8 }}>
+            {/* <Image src={SrcPro} alt="Ayush" className="rounded-md w-full lg:h-auto object-cover object-center" /> */}
+
+            <div className='group relative w-full max-w-[420px] pb-6 pr-6'>
+              <div className='absolute inset-0 translate-x-6 translate-y-6 rounded-[18px] border-2 border-textGreen/90 transition-transform duration-300 group-hover:translate-x-4 group-hover:translate-y-4'></div>
+              <div className='relative z-10 overflow-hidden rounded-[18px] bg-[#dff7f4] p-4 shadow-[0_18px_45px_rgba(2,12,27,0.28)] sm:p-5'>
+                <div className='overflow-hidden rounded-full bg-white shadow-[0_0_0_10px_rgba(255,255,255,0.3),0_18px_40px_rgba(100,255,218,0.14)]'>
+                  <Image
+                    src={Profile}
+                    className='h-auto w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]'
+                    alt="Ayush Kumar profile illustration"
+                    priority
+                  />
+                </div>
+              </div>
+            </div>
           </motion.div>
         </motion.div>
       </section>

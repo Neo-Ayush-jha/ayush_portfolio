@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "24.x"
+    "node": ">=18.13.0 <21"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node --max-old-space-size=4096 ./node_modules/next/dist/bin/next dev",
+    "build": "node --max-old-space-size=4096 ./node_modules/next/dist/bin/next build",
+    "start": "node --max-old-space-size=4096 ./node_modules/next/dist/bin/next start",
     "lint": "next lint"
   },
   "dependencies": {
