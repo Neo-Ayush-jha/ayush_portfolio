@@ -2,3 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+.blog-swiper .swiper-wrapper {
+  align-items: stretch;
+}
+
+.blog-swiper .swiper-slide {
+  opacity: 0.48;
+  transform: scale(0.94);
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+.blog-swiper .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.blog-swiper .swiper-slide-prev,
+.blog-swiper .swiper-slide-next {
+  opacity: 0.78;
+  transform: scale(0.97);
+}
+
+.blog-swiper .swiper-pagination {
+  bottom: 0 !important;
+}
+
+.blog-swiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background: rgba(136, 146, 176, 0.45);
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.blog-swiper .swiper-pagination-bullet-active {
+  width: 30px;
+  background: #64ffda;
+}
+
